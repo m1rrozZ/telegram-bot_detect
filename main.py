@@ -1,0 +1,7 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+token = os.getenv("bot_token")
+print(f"Bot Token: {token}")
